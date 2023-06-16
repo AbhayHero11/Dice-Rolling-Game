@@ -9,5 +9,5 @@ while True:
         print("Thank you for using the Dice Rolling Sim. Goodbye!!")
         break
 
-    dice_roll = random.randint(1,8)
+    dice_roll = random.randint(1,6)
     print(f"The dice rolled: {dice_roll}")
