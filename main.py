@@ -1,13 +1,13 @@
 import random
 
 while True:
-    print("\n--- Dice Rolling Simulator ---")
-    print("Press Enter to roll the dice or X to exit.")
-    choice = input("Your choice: ")
+    print("\n---Dice Rolling Sim---")
+    print("Press Enter to roll dice or X to exit.")
+    choice = input("Your Choice: ")
 
     if choice.lower() == "x":
-        print("Thank you for using the Dice Rolling Simulator. Goodbye!")
+        print("Thank you for using the Dice Rolling Sim. Goodbye!!")
         break
 
-    dice_roll = random.randint(1, 6)
+    dice_roll = random.randint(1,8)
     print(f"The dice rolled: {dice_roll}")
